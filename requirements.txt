@@ -1,0 +1,7 @@
+numpy
+pandas
+pygad
+blosum
+Bio
+pymsaviz
+IPython

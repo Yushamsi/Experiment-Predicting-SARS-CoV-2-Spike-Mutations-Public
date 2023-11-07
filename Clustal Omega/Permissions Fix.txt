@@ -1,0 +1,24 @@
+Here are step-by-step instructions for resolving the "Permission denied" error related to the `clustalo` executable 
+(The ApplicationError with a return code 126 and the message "Permission denied" suggests that the clustalo executable does not have the necessary permissions to execute.):
+
+1. Identify the location of the `clustalo` executable file on your system.
+
+2. Open a terminal or command prompt.
+
+3. Navigate to the directory containing the `clustalo` executable using the `cd` command. For example, if the executable is located in the `/Users/Yusuf/Desktop/MSc-Project-Genetic-Algorithim-Code/Clustal Omega` directory, run the following command:
+   ```
+   cd /Users/Yusuf/Desktop/MSc-Project-Genetic-Algorithim-Code/Clustal Omega
+   ```
+
+4. Set the executable permission for the `clustalo` file using the `chmod` command. Run the following command:
+   ```
+   chmod +x clustalo
+   ```
+
+5. After executing the command, the executable permission will be granted to the `clustalo` file.
+
+6. Retry running the code that calls the `perform_msa()` function.
+
+If you encounter any further permission issues, you may need to adjust the file permissions or ownership settings of the `clustalo` executable file. In such cases, consult your operating system's documentation or seek assistance from your system administrator to resolve the permission issues.
+
+Note that if you are using a virtual environment or have any specific access restrictions on your system, you should take those factors into consideration as well.
